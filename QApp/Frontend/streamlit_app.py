@@ -1,6 +1,7 @@
 # QApp/Frontend/streamlit_app.py
 import streamlit as st
-from Backend.qa_service import answer_question
+from QApp.Backend.qa_service import answer_question
+import sys
  
 st.title("QApp - Local Qwen Docker Demo")
 question = st.text_input("Ask a question")
